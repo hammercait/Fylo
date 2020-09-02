@@ -18,7 +18,7 @@
 
 body{
 	background-color:var(--bkg-dark-blue);
-	background-image: url("bg-desktop.png");
+	background-image: url("images/bg-desktop.png");
 	background-repeat: no-repeat;
     background-position:bottom;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ body{
     font-weight:400;
     color:white;
     font-size:10px;
-    padding-left:440px;
+    padding-left:400px;
 }
 
 .logo-box{
@@ -52,7 +52,7 @@ body{
     width:115px;
     height:35px;
     background-color:transparent;
-    background-image: url("logo.svg");
+    background-image: url("images/logo.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:115px;
@@ -79,17 +79,17 @@ body{
 }
 
 .document{
-    background-image: url("icon-document.svg");
+    background-image: url("images/icon-document.svg");
     background-size: 15px;
 }
 
 .folder{
-    background-image: url("icon-folder.svg");
+    background-image: url("images/icon-folder.svg");
     background-size: 20px;
 }
 
 .upload{
-    background-image: url("icon-upload.svg");
+    background-image: url("images/icon-upload.svg");
     background-size: 20px;
 }
 
@@ -193,7 +193,7 @@ body{
 
 @media only screen and (max-device-width:33em){
     body{
-        background-image: url("bg-mobile.png");
+        background-image: url("images/bg-mobile.png");
         background-size:cover;
         display:flex;
         justify-content:center;
