@@ -191,7 +191,7 @@ body{
     z-index:9;
 }
 
-@media only screen and (max-device-width:33em){
+@media only screen and (max-device-width:30em){
     body{
         background-image: url("images/bg-mobile.png");
         background-size:cover;
